@@ -1,3 +1,5 @@
+/// <reference types="vitest" />
+
 import { defineConfig } from "vite";
 import vue from "@vitejs/plugin-vue";
 
@@ -6,8 +8,8 @@ export default defineConfig({
   test: {
     browser: {
       enabled: true,
-      name: 'firefox',
-      provider: 'playwright'
-    }
-  }
+      name: "firefox",
+      provider: "playwright",
+    },
+  },
 });
